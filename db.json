@@ -3,133 +3,355 @@
     {
       "id": 1,
       "name": "John Doe",
-      "email": "john.doe@example.com",
-      "phone": "+1234567890",
-      "avatar": "https://i.pravatar.cc/150?img=1"
-    },
-    {
-      "id": 2,
-      "name": "Jane Smith",
-      "email": "jane.smith@example.com",
-      "phone": "+1234567891",
-      "avatar": "https://i.pravatar.cc/150?img=2"
+      "email": "john.doe@email.com",
+      "phone": "+63 912 345 6789",
+      "location": "Cebu City, Philippines",
+      "profileImage": "https://via.placeholder.com/150",
+      "isPremium": true,
+      "eventsAttended": 24,
+      "following": 156,
+      "reviews": 18
     }
   ],
   "events": [
     {
       "id": 1,
       "title": "Summer Music Festival",
-      "description": "Biggest music festival of the year!",
+      "date": "2025-11-18",
+      "time": "18:00",
+      "location": "Central Park Arena",
+      "address": "123 Park Avenue, Cebu City",
+      "price": 45,
+      "currency": "$",
       "category": "Music",
-      "image": "https://picsum.photos/seed/event1/800/400",
-      "venue": "Central Park Arena",
-      "city": "New York",
-      "date": "2025-07-15T18:00:00Z",
-      "price": 129.99,
-      "availableSeats": 12500,
-      "featured": true
+      "image": "https://via.placeholder.com/400x300/9C27B0/FFFFFF?text=Music+Festival",
+      "description": "Join us for the biggest summer music festival featuring top artists from around the world.",
+      "rating": 4.8,
+      "attendees": 2500,
+      "totalSeats": 3000,
+      "featured": true,
+      "organizer": "EventPro Inc.",
+      "tags": ["music", "festival", "outdoor"]
     },
     {
       "id": 2,
       "title": "Tech Conference 2025",
-      "description": "Latest innovations in AI and tech.",
-      "category": "Technology",
-      "image": "https://picsum.photos/seed/event2/800/400",
-      "venue": "Convention Center",
-      "city": "San Jose",
-      "date": "2025-09-20T09:00:00Z",
-      "price": 299.00,
-      "availableSeats": 2300,
-      "featured": true
+      "date": "2025-11-22",
+      "time": "09:00",
+      "location": "Convention Center",
+      "address": "456 Business District, Cebu City",
+      "price": 120,
+      "currency": "$",
+      "category": "Conference",
+      "image": "https://via.placeholder.com/400x300/2196F3/FFFFFF?text=Tech+Conference",
+      "description": "Annual technology conference featuring keynotes from industry leaders and hands-on workshops.",
+      "rating": 4.9,
+      "attendees": 5000,
+      "totalSeats": 5000,
+      "featured": true,
+      "organizer": "Tech Summit Org",
+      "tags": ["technology", "conference", "networking"]
     },
     {
       "id": 3,
       "title": "Food & Wine Expo",
-      "description": "Finest cuisines and wines.",
+      "date": "2025-12-05",
+      "time": "12:00",
+      "location": "Downtown Hall",
+      "address": "789 Downtown Street, Cebu City",
+      "price": 35,
+      "currency": "$",
       "category": "Food",
-      "image": "https://picsum.photos/seed/event3/800/400",
-      "venue": "Grand Hotel",
-      "city": "Chicago",
-      "date": "2025-08-10T17:00:00Z",
-      "price": 85.00,
-      "availableSeats": 450,
-      "featured": false
+      "image": "https://via.placeholder.com/400x300/FF9800/FFFFFF?text=Food+Expo",
+      "description": "Experience culinary delights from local and international chefs paired with fine wines.",
+      "rating": 4.7,
+      "attendees": 1200,
+      "totalSeats": 1500,
+      "featured": true,
+      "organizer": "Culinary Masters",
+      "tags": ["food", "wine", "tasting"]
     },
     {
       "id": 4,
-      "title": "Comedy Night Live",
-      "description": "Hottest comedians in town.",
+      "title": "Rock Festival 2025",
+      "date": "2025-11-18",
+      "time": "18:00",
+      "location": "Stadium Arena",
+      "address": "321 Stadium Road, Cebu City",
+      "price": 85,
+      "currency": "$",
+      "category": "Music",
+      "image": "https://via.placeholder.com/400x300/9C27B0/FFFFFF?text=Rock+Festival",
+      "description": "The ultimate rock experience with legendary bands and emerging artists.",
+      "rating": 4.8,
+      "attendees": 2500,
+      "totalSeats": 3000,
+      "featured": false,
+      "organizer": "Rock Events Ltd",
+      "tags": ["rock", "music", "concert"]
+    },
+    {
+      "id": 5,
+      "title": "Basketball Finals",
+      "date": "2025-11-22",
+      "time": "19:30",
+      "location": "Sports Complex",
+      "address": "654 Sports Avenue, Cebu City",
+      "price": 120,
+      "currency": "$",
+      "category": "Sports",
+      "image": "https://via.placeholder.com/400x300/4CAF50/FFFFFF?text=Basketball",
+      "description": "Championship finals featuring the top teams competing for the trophy.",
+      "rating": 4.9,
+      "attendees": 5000,
+      "totalSeats": 6000,
+      "featured": false,
+      "organizer": "Sports League",
+      "tags": ["sports", "basketball", "championship"]
+    },
+    {
+      "id": 6,
+      "title": "Art Gallery Opening",
+      "date": "2025-11-15",
+      "time": "17:00",
+      "location": "Modern Art Museum",
+      "address": "987 Art Street, Cebu City",
+      "price": 30,
+      "currency": "$",
+      "category": "Arts",
+      "image": "https://via.placeholder.com/400x300/E91E63/FFFFFF?text=Art+Gallery",
+      "description": "Exclusive opening of contemporary art exhibition featuring local and international artists.",
+      "rating": 4.6,
+      "attendees": 300,
+      "totalSeats": 400,
+      "featured": false,
+      "organizer": "Art Council",
+      "tags": ["art", "gallery", "exhibition"]
+    },
+    {
+      "id": 7,
+      "title": "Street Food Festival",
+      "date": "2025-11-20",
+      "time": "12:00",
+      "location": "City Square",
+      "address": "147 Central Plaza, Cebu City",
+      "price": 15,
+      "currency": "$",
+      "category": "Food",
+      "image": "https://via.placeholder.com/400x300/FF9800/FFFFFF?text=Street+Food",
+      "description": "Explore diverse street food from around the world in one amazing location.",
+      "rating": 4.7,
+      "attendees": 1200,
+      "totalSeats": 1500,
+      "featured": false,
+      "organizer": "Food Festival Co",
+      "tags": ["food", "street food", "festival"]
+    },
+    {
+      "id": 8,
+      "title": "Jazz Night",
+      "date": "2025-11-25",
+      "time": "20:00",
+      "location": "Blue Note Club",
+      "address": "258 Jazz Avenue, Cebu City",
+      "price": 45,
+      "currency": "$",
+      "category": "Music",
+      "image": "https://via.placeholder.com/400x300/9C27B0/FFFFFF?text=Jazz+Night",
+      "description": "An intimate evening of smooth jazz with talented musicians.",
+      "rating": 4.5,
+      "attendees": 150,
+      "totalSeats": 200,
+      "featured": false,
+      "organizer": "Jazz Society",
+      "tags": ["jazz", "music", "live performance"]
+    },
+    {
+      "id": 9,
+      "title": "Stand-Up Comedy",
+      "date": "2025-11-28",
+      "time": "21:00",
+      "location": "Laugh Factory",
+      "address": "369 Comedy Lane, Cebu City",
+      "price": 35,
+      "currency": "$",
       "category": "Comedy",
-      "image": "https://picsum.photos/seed/event4/800/400",
-      "venue": "Laugh Factory",
-      "city": "Los Angeles",
-      "date": "2025-06-25T20:00:00Z",
-      "price": 45.00,
-      "availableSeats": 120,
-      "featured": false
+      "image": "https://via.placeholder.com/400x300/FFC107/FFFFFF?text=Comedy+Night",
+      "description": "Laugh out loud with the best stand-up comedians in town.",
+      "rating": 4.8,
+      "attendees": 250,
+      "totalSeats": 300,
+      "featured": false,
+      "organizer": "Comedy Productions",
+      "tags": ["comedy", "stand-up", "entertainment"]
+    },
+    {
+      "id": 10,
+      "title": "Theater Play: Romeo & Juliet",
+      "date": "2025-12-01",
+      "time": "19:00",
+      "location": "Grand Theater",
+      "address": "741 Theater Boulevard, Cebu City",
+      "price": 50,
+      "currency": "$",
+      "category": "Theater",
+      "image": "https://via.placeholder.com/400x300/673AB7/FFFFFF?text=Theater+Play",
+      "description": "Classic Shakespearean tragedy brought to life by talented theater company.",
+      "rating": 4.7,
+      "attendees": 400,
+      "totalSeats": 500,
+      "featured": false,
+      "organizer": "Theater Guild",
+      "tags": ["theater", "play", "shakespeare"]
     }
   ],
   "tickets": [
     {
       "id": 1,
+      "userId": 1,
       "eventId": 1,
-      "type": "General",
-      "price": 129.99,
-      "available": 8000
+      "ticketNumber": "TMF2025-4521",
+      "seats": "Section A, Row 5, Seat 12-13",
+      "quantity": 2,
+      "totalPrice": 90,
+      "currency": "$",
+      "purchaseDate": "2025-10-15",
+      "status": "confirmed",
+      "qrCode": "TMF2025452100001"
     },
     {
       "id": 2,
-      "eventId": 1,
-      "type": "VIP",
-      "price": 499.99,
-      "available": 500
+      "userId": 1,
+      "eventId": 2,
+      "ticketNumber": "TC2025-8934",
+      "seats": "General Admission",
+      "quantity": 1,
+      "totalPrice": 120,
+      "currency": "$",
+      "purchaseDate": "2025-10-16",
+      "status": "confirmed",
+      "qrCode": "TC2025893400001"
     },
     {
       "id": 3,
-      "eventId": 2,
-      "type": "Standard",
-      "price": 299.00,
-      "available": 2000
-    },
-    {
-      "id": 4,
+      "userId": 1,
       "eventId": 3,
-      "type": "General",
-      "price": 85.00,
-      "available": 400
+      "ticketNumber": "FWE2025-2156",
+      "seats": "VIP Access",
+      "quantity": 2,
+      "totalPrice": 70,
+      "currency": "$",
+      "purchaseDate": "2025-10-17",
+      "status": "pending",
+      "qrCode": "FWE2025215600001"
     }
   ],
-  "bookings": [
+  "pastEvents": [
     {
       "id": 1,
       "userId": 1,
-      "eventId": 1,
-      "ticketId": 1,
-      "quantity": 2,
-      "total": 259.98,
-      "status": "confirmed",
-      "reference": "SUM2025-XY7K"
+      "eventId": 8,
+      "eventTitle": "Jazz Night Live",
+      "date": "2025-10-10",
+      "location": "Blue Note Club",
+      "rating": 0,
+      "attendedDate": "2025-10-10"
     },
     {
       "id": 2,
-      "userId": 2,
-      "eventId": 2,
-      "ticketId": 3,
-      "quantity": 1,
-      "total": 299.00,
-      "status": "confirmed",
-      "reference": "TCH2025-AB3M"
+      "userId": 1,
+      "eventId": 9,
+      "eventTitle": "Comedy Stand-Up",
+      "date": "2025-09-28",
+      "location": "Laugh Factory",
+      "rating": 5,
+      "attendedDate": "2025-09-28"
     }
   ],
   "categories": [
-    {"id": 1, "name": "Music", "icon": "🎵"},
-    {"id": 2, "name": "Technology", "icon": "💻"},
-    {"id": 3, "name": "Food", "icon": "🍷"},
-    {"id": 4, "name": "Comedy", "icon": "😂"},
-    {"id": 5, "name": "Sports", "icon": "⚽"}
+    {
+      "id": 1,
+      "name": "Music",
+      "icon": "music_note",
+      "color": "#9C27B0"
+    },
+    {
+      "id": 2,
+      "name": "Sports",
+      "icon": "sports_soccer",
+      "color": "#4CAF50"
+    },
+    {
+      "id": 3,
+      "name": "Arts",
+      "icon": "palette",
+      "color": "#E91E63"
+    },
+    {
+      "id": 4,
+      "name": "Food",
+      "icon": "restaurant",
+      "color": "#FF9800"
+    },
+    {
+      "id": 5,
+      "name": "Conference",
+      "icon": "business_center",
+      "color": "#2196F3"
+    },
+    {
+      "id": 6,
+      "name": "Comedy",
+      "icon": "sentiment_satisfied",
+      "color": "#FFC107"
+    },
+    {
+      "id": 7,
+      "name": "Theater",
+      "icon": "theater_comedy",
+      "color": "#673AB7"
+    }
   ],
   "favorites": [
-    {"id": 1, "userId": 1, "eventId": 1},
-    {"id": 2, "userId": 2, "eventId": 2}
+    {
+      "id": 1,
+      "userId": 1,
+      "eventId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "eventId": 4
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Event Reminder",
+      "message": "Summer Music Festival starts in 2 days!",
+      "type": "reminder",
+      "isRead": false,
+      "createdAt": "2025-10-16T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Ticket Confirmed",
+      "message": "Your ticket for Tech Conference 2025 has been confirmed",
+      "type": "confirmation",
+      "isRead": true,
+      "createdAt": "2025-10-16T09:30:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "userId": 1,
+      "eventId": 9,
+      "rating": 5,
+      "comment": "Amazing show! The comedian was hilarious.",
+      "createdAt": "2025-09-29T10:00:00Z"
+    }
   ]
 }
