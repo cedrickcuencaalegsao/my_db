@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@email.com",
+      "location": "Cebu City, Philippines"
+    }
+  ],
+  "events": [],
+  "tickets": [],
+  "pastEvents": [],
+  "categories": [],
+  "favorites": [],
+  "notifications": []
+}
